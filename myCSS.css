@@ -1,0 +1,25 @@
+html {
+    background: url(img/Beautiful_Luxury_House_with_Swiming_Pool_Wallpapers_for_Desktop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Helvetica;
+    border: none
+}
+
+body{
+    overflow: hidden;
+}
+
+div.mycenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: none;
+    margin-top: 25%;
+    margin-bottom:40%;
+    background-color: #ffffff;
+    background:rgba(146,146,146,0.6);
+
+}
