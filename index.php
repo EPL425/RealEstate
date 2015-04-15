@@ -21,7 +21,7 @@
 <body>
 
     <div class="mycenter">
-        <form class="form-inline">
+        <form class="form-inline" >
             <div class="form-group">
                 <label for="exampleInputName2">Name</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
