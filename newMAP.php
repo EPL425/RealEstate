@@ -123,7 +123,8 @@
 //                infowindow.open(map, marker);
 //            });
 
-            markers.push(            new google.maps.Marker({
+            markers.push(
+                new google.maps.Marker({
                 position: location,
                 map: map,
                 animation: google.maps.Animation.DROP,

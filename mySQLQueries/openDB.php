@@ -2,7 +2,7 @@
 
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "261994akk";
     $dbname = "epl425db";
 
     // Create connection

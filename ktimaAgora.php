@@ -2,7 +2,7 @@
 
     include_once('simple_html_dom.php');
     include("mySQLQueries/openDB.php");
-    for($i=116;$i<200;$i++) {
+    for($i=1;$i<118;$i++) {
         $target_url = 'http://www.ktimatagora.com/properties-for-sale/?page='.$i;
         $html = new simple_html_dom();
         $html->load_file($target_url);
@@ -51,14 +51,15 @@
                         $b=$propertyInfo->innertext();
                         $b = ltrim($b);
                         $b = rtrim($b);
-                        if(strcmp("$type","Residential Land")==0){
+                        if(strcmp("$type","Apartment-Flat")==0 ||strcmp("$type","House-Villa")==0){
+
+                            $beds = strtok($b, " ");
+                            echo $beds . "<br>";
+                        }
+                        else {
                             $beds=strtok($b,":");
                             $beds=strtok(" ");
                             echo $beds."<br>";
-                        }
-                        else {
-                            $beds = strtok($b, " ");
-                            echo $beds . "<br>";
                         }
                    }
                     if($propertyInfo->class == "info_loc") {
