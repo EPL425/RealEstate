@@ -3,8 +3,29 @@
 
 header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia+Varvara,+Nicosia&region=Cyprus&key=AIzaSyDskKKeX8jRTqsVKa7b8dMPLICe10zxvxc");
 
-//var nicosiaAreas = array("Acropolis","Agia+Varvara","Agioi+Omologites","Agioi+Trimithias","Agios+Andreas","Agios+Dometios","Agios+Epifanios+Oreinis","Agios+Ioannis+Malountas",
-  //                        "Aglantzia","Agrokipia","Alampra","Anageia","Analiontas","Anthoupoli","Archangelos","Astromeritis","Dali","Dasoupolis","Deftera","Denia","Engomi",
+//NICOSIA
+
+//Acropolis
+//Agia Varvara
+//Agioi Omologites
+//Agioi Trimithias
+//Agios Andreas
+//Agios Dometios
+//Agios Epifanios Oreinis
+//Agios Ioannis Malountas
+//Aglantzia
+//Agrokipia
+//Alampra
+//Anageia
+//Analiontas
+//Anthoupoli
+//Archangelos
+//Astromeritis
+//Dali
+//Dasoupolis
+//Deftera
+//Denia
+//Engomi
 //Engomi - European University
 //Engomi - University of Nicosia
 //Ergates

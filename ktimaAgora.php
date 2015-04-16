@@ -1,10 +1,15 @@
 <?php
 
     include_once('simple_html_dom.php');
-    for($i=0;$i<1;$i++) {
+    include("mySQLQueries/openDB.php");
+    for($i=116;$i<200;$i++) {
         $target_url = 'http://www.ktimatagora.com/properties-for-sale/?page='.$i;
         $html = new simple_html_dom();
         $html->load_file($target_url);
+
+        $link="";$img="";$type="";$priceSF="";$beds=0;$city="";$village="";
+
+
 
         foreach ($html->find('div') as $propertyDiv) {
             if($propertyDiv->class == "property_listing_small"){
@@ -12,61 +17,74 @@
                 foreach ($propertyDiv->find('a') as $propertyLink){
                     if($count == 1){
                         $link= $propertyLink->href;
+                        $link="http://www.ktimatagora.com/".$link;
                         echo $link."<br/>";
                         foreach($propertyLink->find('img') as $propertyImg){
                             $img = $propertyImg->src;
-                            echo "http://www.ktimatagora.com/".$img."<br/>";
+                            $img = "http://www.ktimatagora.com/".$img;
+                            echo $img."<br/>";
                         }
                         foreach($propertyLink->find('div') as $propertyPrice){
-                            $priceSF=$propertyPrice;
+                            $p=$propertyPrice->innertext();
+                            $p = ltrim($p);
+                            $p = rtrim($p);
+                            $priceSF=strtok($p,":");
+                            $priceSF=strtok("<");
+                            $priceSF = ltrim($priceSF);
+                            $priceSF = rtrim($priceSF);
+                            $priceSF = strtok($priceSF, "€");
+                            $priceSF = str_replace(",","",$priceSF);
                             echo $priceSF."<br/>";
                         }
                     }
                     $count++;
                 }
                 foreach($propertyDiv->find('div') as $propertyInfo){
+
                     if($propertyInfo->class == "info_type"){
-                        $type = $propertyInfo;
-                        echo $type;
+                        $type = $propertyInfo->innertext();
+                        $type = ltrim($type);
+                        $type = rtrim($type);
+                        echo $type."<br>";
                     }
                     if($propertyInfo->class == "info_beds"){
-                        $beds = $propertyInfo;
-                        echo $beds;
+                        $b=$propertyInfo->innertext();
+                        $b = ltrim($b);
+                        $b = rtrim($b);
+                        if(strcmp("$type","Residential Land")==0){
+                            $beds=strtok($b,":");
+                            $beds=strtok(" ");
+                            echo $beds."<br>";
+                        }
+                        else {
+                            $beds = strtok($b, " ");
+                            echo $beds . "<br>";
+                        }
+                   }
+                    if($propertyInfo->class == "info_loc") {
+                        $location = $propertyInfo->innertext();
+                        $location= ltrim($location);
+                        $city = strtok($location, ",");
+                        echo $city . "<br>";
+                        $village = strtok(",");
+                        $village = ltrim($village);
+                        echo $village . "<br>";
                     }
-                    if($propertyInfo->class == "info_loc"){
-                        $location = $propertyInfo;
-                        echo $location;
-                    }
-
                 }
+
+                $sqlInsertProperty = "INSERT INTO property (type, forSale, bedrooms,price, city, location, img, link)VALUES ('$type',1, '$beds','$priceSF','$city' ,'$village','$img','$link' );";
+
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                } else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
+
+
                 echo "<br/>";
             }
         }
 
     }
+    $conn->close();
 ?>
-
-<!---->
-<!--<div class="property_listing_small">-->
-<!---->
-<!---->
-<!--    <a class="shortlistbtn" rel="tipsy" href="" onclick="$.cookie('L21221', 'inshortlist', { path: '/' });location.reload();return false;" original-title="add to shortlist"><i class="fa fa-plus-square"></i></a>-->
-<!---->
-<!---->
-<!--    <a href="properties-for-sale/3-bedroom-apartment-flat-for-sale-in-engomi-2">-->
-<!--        <img src="media/property-images/3_bedrooms_apartment_flat_for_sale_in_thumb_32.jpg" width="220" height="164" alt="">-->
-<!--        <div class="price">For Sale : €395,000 <span></span>-->
-<!--        </div>-->
-<!--    </a>-->
-<!---->
-<!---->
-<!---->
-<!--    <div class="info">-->
-<!--        <div class="info_type">Apartment-Flat </div>-->
-<!--        <div class="info_beds">-->
-<!--            3 bedrooms</div>-->
-<!---->
-<!--        <div class="info_loc">Nicosia , Engomi</div>-->
-<!--        <div class="info_ref">Ref. L21221</div>-->
-<!--    </div>-->
-<!--</div>-->
