@@ -66,7 +66,7 @@
                             }
                         }
 
-                        xhr.open('POST', '../mySQLQueries/insertVillages.php');
+                        xhr.open('POST', '../mySQLQueries/insertVillagesFamagusta.php');
                         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                         xhr.send("village=" + results[0].address_components[0].long_name + "&k=" + results[0].geometry.location.k + "&D="
                         + results[0].geometry.location.D );
