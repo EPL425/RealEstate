@@ -25,105 +25,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="newMAP.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newMAP.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.872727" vertical-offset="1565" max-vertical-offset="2533">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#8#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loadVillages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadVillages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.036364" vertical-offset="204" max-vertical-offset="3315">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <marker date="1429207448982" expanded="true" signature="369:401" placeholder="SELECT name ..villagesnicosia..." />
-                <marker date="1429207448982" expanded="true" signature="747:859" placeholder="SELECT * FRO..property..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="loadNicosia.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadNicosia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.576923" vertical-offset="1616" max-vertical-offset="3009">
-              <caret line="125" column="83" selection-start-line="125" selection-start-column="83" selection-end-line="125" selection-end-column="83" />
+            <state vertical-scroll-proportion="-28.73077" vertical-offset="953" max-vertical-offset="3009">
+              <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
               <folding>
-                <marker date="1429226964405" expanded="true" signature="375:407" placeholder="SELECT name ..villagesnicosia..." />
-                <marker date="1429226964405" expanded="true" signature="685:789" placeholder="SELECT * FRO..property..." />
-                <marker date="1429226964405" expanded="true" signature="685:813" placeholder="SELECT * FRO..property..." />
+                <marker date="1429261087777" expanded="true" signature="375:407" placeholder="SELECT name ..villagesnicosia..." />
+                <marker date="1429261087777" expanded="true" signature="685:813" placeholder="SELECT * FRO..property..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertVillagesNicosia.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mySQLQueries/insertVillagesNicosia.php">
+      <file leaf-file-name="loadVillages.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loadVillages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="844">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75829387" vertical-offset="2471" max-vertical-offset="3315">
+              <caret line="183" column="59" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="255" max-vertical-offset="1649">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ktimaAgoraSale.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraSale.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1429189872279" expanded="true" signature="149:251" placeholder="INSERT INTO ..." />
+                <marker date="1429259909573" expanded="true" signature="3272:3425" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locations.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locations.php">
+      <file leaf-file-name="ktimaAgoraRent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraRent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.884615" vertical-offset="3162" max-vertical-offset="4182">
-              <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="109.12727" vertical-offset="14009" max-vertical-offset="16507">
-              <caret line="482" column="21" selection-start-line="482" selection-start-column="6" selection-end-line="482" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ktimaAgora.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktimaAgora.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1632">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state vertical-scroll-proportion="-15.461538" vertical-offset="788" max-vertical-offset="1632">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
               <folding>
-                <marker date="1429227042154" expanded="true" signature="3266:3419" placeholder="INSERT INTO ..." />
+                <marker date="1429260020796" expanded="true" signature="3003:3156" placeholder="INSERT INTO ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="openDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mySQLQueries/openDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="646">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +93,6 @@
         <option value="$PROJECT_DIR$/googlemapsUse.html" />
         <option value="$PROJECT_DIR$/example2.php" />
         <option value="$PROJECT_DIR$/loadMarkers.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/openDB.php" />
         <option value="$PROJECT_DIR$/newMAP.html" />
         <option value="$PROJECT_DIR$/geocode.php" />
@@ -176,8 +129,12 @@
         <option value="$PROJECT_DIR$/example1.php" />
         <option value="$PROJECT_DIR$/loadVillages.php" />
         <option value="$PROJECT_DIR$/divmodal.html" />
-        <option value="$PROJECT_DIR$/loadNicosia.php" />
         <option value="$PROJECT_DIR$/ktimaAgora.php" />
+        <option value="$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgora.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraSale.php" />
+        <option value="$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraRent.php" />
+        <option value="$PROJECT_DIR$/loadNicosia.php" />
       </list>
     </option>
   </component>
@@ -214,7 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,12 +199,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mySQLQueries" />
+              <option name="myItemId" value="InsertDataDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EPL425" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RealEstate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,8 +230,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RealEstate\img" />
+      <recent name="C:\xampp\htdocs\RealEstate\css" />
+      <recent name="C:\xampp\htdocs\RealEstate\InsertDataDB\ktimaAgora" />
+      <recent name="C:\xampp\htdocs\RealEstate\InsertDataDB" />
       <recent name="C:\xampp\htdocs\RealEstate\bin" />
-      <recent name="C:\xampp\htdocs\RealEstate\mySQLQueries" />
     </key>
   </component>
   <component name="RunManager">
@@ -278,9 +252,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -288,6 +259,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -306,8 +280,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -315,19 +289,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.123667374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -376,7 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myCSS.css">
+    <entry file="file://$PROJECT_DIR$/css/myCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="510">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -390,13 +364,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/simple_html_dom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="16507">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="e#6#661#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myCSS.css">
+    <entry file="file://$PROJECT_DIR$/css/myCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="510">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -444,265 +416,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4489093" vertical-offset="0" max-vertical-offset="871">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020118343" vertical-offset="0" max-vertical-offset="845">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadMarkers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="731">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia2.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1105">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia3.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.846154" vertical-offset="227" max-vertical-offset="1173">
           <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia1.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4028436" vertical-offset="153" max-vertical-offset="1088">
           <caret line="29" column="202" selection-start-line="29" selection-start-column="202" selection-end-line="29" selection-end-column="202" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia4.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.576923" vertical-offset="261" max-vertical-offset="1122">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia5.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.230769" vertical-offset="227" max-vertical-offset="1122">
           <caret line="29" column="165" selection-start-line="29" selection-start-column="165" selection-end-line="29" selection-end-column="165" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeNicosia6.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeNicosia6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.230769" vertical-offset="227" max-vertical-offset="1122">
           <caret line="29" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos1.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.76923" vertical-offset="210" max-vertical-offset="1122">
           <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos2.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.884615" vertical-offset="210" max-vertical-offset="1122">
           <caret line="29" column="116" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos3.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.846154" vertical-offset="159" max-vertical-offset="1122">
           <caret line="29" column="132" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos4.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.807693" vertical-offset="210" max-vertical-offset="1122">
           <caret line="35" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos5.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6153846" vertical-offset="210" max-vertical-offset="1122">
           <caret line="24" column="89" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodePaphos6.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodePaphos6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.115385" vertical-offset="210" max-vertical-offset="1122">
           <caret line="37" column="105" selection-start-line="37" selection-start-column="105" selection-end-line="37" selection-end-column="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol1.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.884615" vertical-offset="210" max-vertical-offset="1122">
           <caret line="29" column="177" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol2.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.884615" vertical-offset="210" max-vertical-offset="1122">
           <caret line="29" column="79" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol3.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.423077" vertical-offset="210" max-vertical-offset="1122">
           <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol4.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.5" vertical-offset="210" max-vertical-offset="1122">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol5.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.038462" vertical-offset="278" max-vertical-offset="1122">
           <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLimassol6.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLimassol6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28199053" vertical-offset="0" max-vertical-offset="1122">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLarnaca1.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLarnaca1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.269231" vertical-offset="210" max-vertical-offset="1122">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLarnaca2.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLarnaca2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.884615" vertical-offset="210" max-vertical-offset="1122">
           <caret line="29" column="122" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeLarnaca3.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeLarnaca3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75829387" vertical-offset="125" max-vertical-offset="1122">
           <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geocode/geocodeFamagusta1.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/mySQLQueries/openDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5165877" vertical-offset="754" max-vertical-offset="1598">
-          <caret line="70" column="88" selection-start-line="70" selection-start-column="88" selection-end-line="70" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="51" max-vertical-offset="1649">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySQLQueries/openDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="646">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/oms.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4562427" vertical-offset="0" max-vertical-offset="857">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615" vertical-offset="3162" max-vertical-offset="4182">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4182">
           <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/simple_html_dom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="109.12727" vertical-offset="14009" max-vertical-offset="16507">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14009" max-vertical-offset="16507">
           <caret line="482" column="21" selection-start-line="482" selection-start-column="6" selection-end-line="482" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySQLQueries/insertVillages.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/mySQLQueries/insertVillages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3021327" vertical-offset="0" max-vertical-offset="844">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1429040830278" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1429040830278" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadVillages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.036364" vertical-offset="204" max-vertical-offset="3315">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <marker date="1429207448982" expanded="true" signature="369:401" placeholder="SELECT name ..villagesnicosia..." />
-            <marker date="1429207448982" expanded="true" signature="747:859" placeholder="SELECT * FRO..property..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newMAP.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.872727" vertical-offset="1565" max-vertical-offset="2533">
+        <state vertical-scroll-proportion="-20.884615" vertical-offset="1565" max-vertical-offset="2533">
           <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="e#6#8#0#PHP" expanded="true" />
@@ -710,35 +605,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadNicosia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.576923" vertical-offset="1616" max-vertical-offset="3009">
-          <caret line="125" column="83" selection-start-line="125" selection-start-column="83" selection-end-line="125" selection-end-column="83" />
-          <folding>
-            <marker date="1429226964405" expanded="true" signature="375:407" placeholder="SELECT name ..villagesnicosia..." />
-            <marker date="1429226964405" expanded="true" signature="685:789" placeholder="SELECT * FRO..property..." />
-            <marker date="1429226964405" expanded="true" signature="685:813" placeholder="SELECT * FRO..property..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktimaAgora.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1632">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1429227042154" expanded="true" signature="3266:3419" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySQLQueries/insertVillagesNicosia.php">
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/mySQLQueries/insertVillagesNicosia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1429189872279" expanded="true" signature="149:251" placeholder="INSERT INTO ..." />
+            <marker date="1429189872279" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72511846" vertical-offset="0" max-vertical-offset="844">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/Geocode/geocodeFamagusta1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.027251184" vertical-offset="448" max-vertical-offset="1598">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2014218" vertical-offset="0" max-vertical-offset="844">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44942528" vertical-offset="0" max-vertical-offset="870">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38270143" vertical-offset="0" max-vertical-offset="844">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraRent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.461538" vertical-offset="788" max-vertical-offset="1632">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding>
+            <marker date="1429260020796" expanded="true" signature="3003:3156" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertDataDB/ktimaAgora/ktimaAgoraSale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1429259909573" expanded="true" signature="3272:3425" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="255" max-vertical-offset="1649">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadNicosia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.73077" vertical-offset="953" max-vertical-offset="3009">
+          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+          <folding>
+            <marker date="1429261087777" expanded="true" signature="375:407" placeholder="SELECT name ..villagesnicosia..." />
+            <marker date="1429261087777" expanded="true" signature="685:813" placeholder="SELECT * FRO..property..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadVillages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75829387" vertical-offset="2471" max-vertical-offset="3315">
+          <caret line="183" column="59" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

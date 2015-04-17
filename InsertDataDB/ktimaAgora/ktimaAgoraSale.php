@@ -1,7 +1,7 @@
 <?php
 
-    include_once('simple_html_dom.php');
-    include("mySQLQueries/openDB.php");
+    include_once('../simple_html_dom.php');
+    include("../mySQLQueries/openDB.php");
     for($i=1;$i<118;$i++) {
         $target_url = 'http://www.ktimatagora.com/properties-for-sale/?page='.$i;
         $html = new simple_html_dom();
