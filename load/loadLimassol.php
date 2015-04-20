@@ -30,7 +30,7 @@
         //echo "0 results";
     }
 
-    $sqlHouse = "SELECT * FROM propertylimassol, propertylocation WHERE  propertylimassol.exactLoc=1  and propertylimassol.id =propertylocation.propertyID ;";
+    $sqlHouse = "SELECT * FROM propertylimassol, propertylocation WHERE  propertylimassol.exactLoc=propertylocation.locationID ;";
     $resultHouses = $conn->query($sqlHouse);
 
     if ($resultHouses->num_rows > 0) {

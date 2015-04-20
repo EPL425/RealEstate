@@ -26,7 +26,7 @@ function loadVillages () {
                     }
                     var beds = "Plot: ";
                     var met = "m²";
-                    if (markerData[foo][i].type == "Apartment-Flat" || markerData[foo][i].type == "House-Villa") {
+                    if (markerData[foo][i].type == "Apartment" || markerData[foo][i].type == "House") {
                         beds = "Bedrooms: ";
                         met = "";
                     }

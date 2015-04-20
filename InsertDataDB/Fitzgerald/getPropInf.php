@@ -33,6 +33,13 @@
             $par = strpos($priceAndType, "</span>");
 
             $type = substr($priceAndType, 0, $par);
+            if (strpos($type,"Apartment")>=0 ){
+                $type="Apartment";
+            }elseif (strpos($type,"Studio")>=0){
+                $type = "Studio";
+            }else{
+                $type="House";
+            }
 
             echo $type. "<br>";
 
@@ -71,96 +78,101 @@
 
     }
 
-    if (strcmp($city,"Nicosia")==0){
-        $sqlInsertProperty = "INSERT INTO propertyNicosia (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link',1 );";
 
-        if ($conn->query($sqlInsertProperty) === TRUE) {
 
-            $sqlInsertLatLong= "INSERT INTO propertyLocation(propertyID, Latitude, Longitude) VALUES ('$conn->insert_id','$lat' ,'$long') " ;
+
+
+    if (strcmp($city,"Nicosia")==0) {
+        $sqlCheck="SELECT * FROM propertynicosia WHERE propertynicosia.link='$link';";
+        $resultProperty = $conn->query($sqlCheck);
+        if ($resultProperty->num_rows == 0) {
+            $sqlInsertLatLong= "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$lat' ,'$long') " ;
             if ($conn->query($sqlInsertLatLong) === TRUE) {
-
-                echo "ok111";
+                $sqlInsertProperty = "INSERT INTO propertyNicosia (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link','$conn->insert_id' );";
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                }else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
             }else {
-                echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                echo "Error: " . $sqlInsertLatLong . "<br>" . $conn->error;
             }
 
-
-        } else {
-            echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
         }
-
-    }elseif (strcmp($city,"Limassol")==0){
-        $sqlInsertProperty = "INSERT INTO propertyLimassol (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link',1 );";
-
-        if ($conn->query($sqlInsertProperty) === TRUE) {
-
-            $sqlInsertLatLong= "INSERT INTO propertyLocation(propertyID, Latitude, Longitude) VALUES ('$conn->insert_id','$lat' ,'$long') " ;
+    }elseif (strcmp($city,"Limassol")==0) {
+        $sqlCheck="SELECT * FROM propertylimassol WHERE propertylimassol.link='$link';";
+        $resultProperty = $conn->query($sqlCheck);
+        if ($resultProperty->num_rows == 0) {
+            $sqlInsertLatLong= "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$lat' ,'$long') " ;
             if ($conn->query($sqlInsertLatLong) === TRUE) {
-
-                echo "ok111";
+                $sqlInsertProperty = "INSERT INTO propertylimassol (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link','$conn->insert_id' );";
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                }else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
             }else {
-                echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                echo "Error: " . $sqlInsertLatLong . "<br>" . $conn->error;
             }
 
-
-        } else {
-            echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
         }
-    }elseif (strcmp($city,"Larnaca")==0){
-        $sqlInsertProperty = "INSERT INTO propertyLarnaca (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link',1 );";
 
-        if ($conn->query($sqlInsertProperty) === TRUE) {
-
-            $sqlInsertLatLong= "INSERT INTO propertyLocation(propertyID, Latitude, Longitude) VALUES ('$conn->insert_id','$lat' ,'$long') " ;
+    }elseif (strcmp($city,"Larnaca")==0) {
+        $sqlCheck="SELECT * FROM propertylarnaca WHERE propertylarnaca.link='$link';";
+        $resultProperty = $conn->query($sqlCheck);
+        if ($resultProperty->num_rows == 0) {
+            $sqlInsertLatLong= "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$lat' ,'$long') " ;
             if ($conn->query($sqlInsertLatLong) === TRUE) {
-
-                echo "ok111";
+                $sqlInsertProperty = "INSERT INTO propertylarnaca (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link','$conn->insert_id' );";
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                }else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
             }else {
-                echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                echo "Error: " . $sqlInsertLatLong . "<br>" . $conn->error;
             }
 
-
-        } else {
-            echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
         }
-    }elseif (strcmp($city,"Paphos")==0){
-        echo "PAPHOS<br>";
-        $sqlInsertProperty = "INSERT INTO propertyPaphos (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link',1 );";
 
-        if ($conn->query($sqlInsertProperty) === TRUE) {
-
-            $sqlInsertLatLong= "INSERT INTO propertyLocation(propertyID, Latitude, Longitude) VALUES ('$conn->insert_id', '$lat' ,'$long') " ;
+    }elseif (strcmp($city,"Paphos")==0) {
+        $sqlCheck="SELECT * FROM propertypaphos WHERE propertypaphos.link='$link';";
+        $resultProperty = $conn->query($sqlCheck);
+        if ($resultProperty->num_rows == 0) {
+            $sqlInsertLatLong= "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$lat' ,'$long') " ;
             if ($conn->query($sqlInsertLatLong) === TRUE) {
-
-                echo "ok111";
+                $sqlInsertProperty = "INSERT INTO propertypaphos (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link','$conn->insert_id' );";
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                }else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
             }else {
-                echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                echo "Error: " . $sqlInsertLatLong . "<br>" . $conn->error;
             }
 
-
-        } else {
-            echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
         }
-    }elseif (strcmp($city,"Famagusta")==0){
-        $sqlInsertProperty = "INSERT INTO propertyfamagusta (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link',1 );";
 
-        if ($conn->query($sqlInsertProperty) === TRUE) {
-
-            $sqlInsertLatLong= "INSERT INTO propertyLocation(propertyID, Latitude, Longitude) VALUES ('$conn->insert_id',$lat ,'$long') " ;
+    }elseif (strcmp($city,"Famagusta")==0) {
+        $sqlCheck="SELECT * FROM propertyfamagusta WHERE propertyfamagusta.link='$link';";
+        $resultProperty = $conn->query($sqlCheck);
+        if ($resultProperty->num_rows == 0) {
+            $sqlInsertLatLong= "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$lat' ,'$long') " ;
             if ($conn->query($sqlInsertLatLong) === TRUE) {
-
-                echo "ok111";
+                $sqlInsertProperty = "INSERT INTO propertyfamagusta (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type',1, '$beds','$price','$cityAndVillage','$img','$link','$conn->insert_id' );";
+                if ($conn->query($sqlInsertProperty) === TRUE) {
+                    echo "ok111";
+                }else {
+                    echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                }
             }else {
-                echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
+                echo "Error: " . $sqlInsertLatLong . "<br>" . $conn->error;
             }
 
-
-        } else {
-            echo "Error: " . $sqlInsertProperty . "<br>" . $conn->error;
         }
+
     }
 
-//$conn->close();
 
 
 ?>

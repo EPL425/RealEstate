@@ -38,7 +38,7 @@
 
 /////////////////////////////////////////////////////////// HOUSE ///////////////////////////////////////////////
 
-    $sqlHouse = "SELECT * FROM propertynicosia, propertylocation WHERE  propertynicosia.exactLoc=1  and propertynicosia.id =propertylocation.propertyID ;";
+    $sqlHouse = "SELECT * FROM propertynicosia, propertylocation WHERE  propertynicosia.exactLoc=propertylocation.locationID ;";
     $resultHouses = $conn->query($sqlHouse);
 
     if ($resultHouses->num_rows > 0) {

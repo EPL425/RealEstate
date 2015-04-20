@@ -45,6 +45,21 @@
                         $type = $propertyInfo->innertext();
                         $type = ltrim($type);
                         $type = rtrim($type);
+                        if(strcmp($type,"House-Villa")==0){
+                            $type="House";
+                        }
+                        elseif (strcmp($type,"Apartment-Flat")==0){
+                            $type="Apartment";
+                        }
+                        elseif (strcmp($type,"Studio")==0){
+                            $type="Studio";
+                        }
+                        elseif(strcmp($type,"Residential Land")==0 || strcmp($type,"Agricultural Land")==0){
+                            $type="Plot";
+                        }
+                        else{
+                            $type = "Other";
+                        }
                         echo $type."<br>";
                     }
                     if($propertyInfo->class == "info_beds"){
