@@ -118,10 +118,10 @@ header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia
 //Tombs of the Kings
 //Tremithousa
 //Tsada
-//Universal Area
-//Venus Rock Golf Resort
+//Universal Area//
+//Venus Rock Golf Resort//
 //Yeroskipou
-//Yialia
+//Yialia//
 
 
 //Limassol
@@ -131,8 +131,8 @@ header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia
 //Agios Athanasios
 //Agios Georgios
 //Agios Nikolaos
-//Agios Tychonas Tourist
-//Agios Tychonas Village
+//Agios Tychonas Tourist//
+//Agios Tychonas Village//
 //Agros
 //Akrotiri
 //Amathus area
@@ -142,20 +142,20 @@ header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia
 //Asgata
 //Columbia area
 //Ekali
-//Enaerios
+//Enaerios//
 //Episkopi
 //Eptagoneia
 //Erimi
-//Fasoula
-//Germasogeia Tourist Area
-//Germasogeia Village
-//Governor's Beach
-//Kalogiroi Villas
-//Kapsalos
-//Kato Polemidia
-//Kellaki
-//Kolossi
-//Lania
+//Fasoula-
+//Germasogeia Tourist Area//-
+//Germasogeia Village//
+//Governor's Beach//
+//Kalogiroi Villas//
+//Kapsalos-
+//Kato Polemidia-
+//Kellaki-
+//Kolossi-
+//Lania-
 //Limassol Centre
 //Limnatis
 //Linopetra
@@ -177,15 +177,15 @@ header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia
 //Pera Pedi
 //Pissouri
 //Platres
-//Polemidia Kato
-//Polemidia Pano
+//Polemidia Kato//
+//Polemidia Pano//
 //Potamos Germasogeia
 //Pyrgos
-//Sfalaggiotissa
+//Sfalaggiotissa//
 //Silikou
-//Souni-Zanatzia
+//Souni-Zanatzia//
 //Trachoni
-//Trimiklini
+//Trimiklini//
 //Tsirio
 //Ypsonas
 //Zakaki
@@ -219,8 +219,8 @@ header( "location:https://maps.googleapis.com/maps/api/geocode/json?address=Agia
 //Kelia
 //Kiti
 //Kornos
-//Krasa
-//Larnaca Centre
+//Krasa//
+//Larnaca Centre//
 //Lefkara
 //Livadia
 //Maroni

@@ -27,7 +27,10 @@
         }
 
         function codeAddress() {
-            var address = ["Oroklini","Pervolia","Pyla","Skarinou","Tersefanou","Tochni","Vavatsinia","Xylotympou","Xylofagou","Zygi"];
+            var address = ["Mouttagiaka","Naafi",
+"Neapolis","Omonoia","Panthea","Paramytha",
+"Parekklisia Tourist Area","Parekklisia village",
+"Pera Pedi","Pissouri"];
 
 
             console.log(address.length);
@@ -35,7 +38,7 @@
             for(i=0; i<address.length ;i++){
                 console.log(address[i]);
                 console.log(i);
-                geocoder.geocode( { 'address': address[i]+",Larnaca, Cyprus"}, function(results, status) {
+                geocoder.geocode( { 'address': address[i]+",Limassol, Cyprus"}, function(results, status) {
 
                     if (status == google.maps.GeocoderStatus.OK) {
 //                        map.setCenter(results[0].geometry.location);
@@ -66,7 +69,7 @@
                             }
                         }
 
-                        xhr.open('POST', '../mySQLQueries/insertVillagesLarnaca.php');
+                        xhr.open('POST', '../mySQLQueries/insertVillagesLimassol.php');
                         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                         xhr.send("village=" + results[0].address_components[0].long_name + "&k=" + results[0].geometry.location.k + "&D="
                         + results[0].geometry.location.D );

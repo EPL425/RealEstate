@@ -38,12 +38,41 @@
                 geocoder.geocode( { 'address': address[i]+",Limassol, Cyprus"}, function(results, status) {
 
                     if (status == google.maps.GeocoderStatus.OK) {
-                        map.setCenter(results[0].geometry.location);
-                        var marker = new google.maps.Marker({
-                            map: map,
-                            position: results[0].geometry.location
-                        });
-                    } else {
+                        
+//                        map.setCenter(results[0].geometry.location);
+//                        var marker = new google.maps.Marker({
+//                            map: map,
+//                            position: results[0].geometry.location
+//                        });
+                        
+                    console.log(results[0]);
+                        var xhr;
+                        if (window.XMLHttpRequest) {
+                            xhr = new XMLHttpRequest();
+                        }
+                        else if (window.ActiveXObject) {
+                            xhr = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        else {
+                            throw new Error("Ajax is not supported by this browser");
+                        }
+                        // 1. Create XHR instance - End
+
+                        // 2. Define what to do when XHR feed you the response from the server - Start
+                        xhr.onreadystatechange = function () {
+                            if (xhr.readyState === 4) {
+                                if (xhr.status == 200 && xhr.status < 300) {
+                                    console.log(xhr.responseText);
+                                }
+                            }
+                        }
+
+                        xhr.open('POST', '../mySQLQueries/insertVillagesLimassol.php');
+                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        xhr.send("village=" + results[0].address_components[0].long_name + "&k=" + results[0].geometry.location.k + "&D="
+                        + results[0].geometry.location.D );
+    
+                   } else {
                         alert('Geocode was not successful for the following reason: ' + status);
                     }
                 });
