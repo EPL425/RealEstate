@@ -52,8 +52,8 @@ function loadHouses(){
             position: location,
             map: map,
             animation: google.maps.Animation.DROP,
-            title: markesDataHouses[i].type
-            //icon: "house170.png"
+            title: markesDataHouses[i].type,
+            icon: "house170.png"
         });
 
         markersHouses.push(newMarker);

@@ -107,7 +107,7 @@
                 if ($resultProperty->num_rows == 0) {
                     $sqlInsertLatLong = "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$ll[0]' ,'$ll[1]') ";
                     if ($conn->query($sqlInsertLatLong) === TRUE) {
-                        $sqlInsertProperty = "INSERT INTO propertyfamagusta (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type','$sale', '$beds','$price','$location','$img','$link','$conn->insert_id' );";
+                        $sqlInsertProperty = "INSERT INTO propertyfamagusta (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type','$sale', '$beds','$price',N'$location','$img','$link','$conn->insert_id' );";
                         if ($conn->query($sqlInsertProperty) === TRUE) {
                             echo "ok111";
                         } else {
