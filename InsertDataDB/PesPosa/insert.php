@@ -1,7 +1,9 @@
 <?php
     include_once('../simple_html_dom.php');
     include("../mySQLQueries/openDB.php");
-    for ($i=0; $i<=40 ; $i+=20){
+    for ($offset=0; $offset<=40 ; $offset+=20){
+
+        echo "///////////////////////////////////////////////////////////////".$offset."<br><br>";
         $target_url = 'http://real-estate.pesposa.com/Famagusta#offset:'.$i;
         $html = new simple_html_dom();
         $html->load_file($target_url);

@@ -2,7 +2,7 @@
 
 include_once('../simple_html_dom.php');
 include("../mySQLQueries/openDB.php");
-for($i=1;$i<3;$i++) {
+for($i=1;$i<55;$i++) {
     $target_url = 'http://www.ktimatagora.com/properties-for-rent/?page='.$i;
     $html = new simple_html_dom();
     $html->load_file($target_url);
@@ -66,7 +66,7 @@ for($i=1;$i<3;$i++) {
                     $b=$propertyInfo->innertext();
                     $b = ltrim($b);
                     $b = rtrim($b);
-                    if(strcmp("$type","Apartment-Flat")==0 ||strcmp("$type","House-Villa")==0){
+                    if(strcmp("$type","Apartment")==0 ||strcmp("$type","House")==0){
 
                         $beds = strtok($b, " ");
                         echo $beds . "<br>";
@@ -86,6 +86,7 @@ for($i=1;$i<3;$i++) {
                     echo $city . "<br>";
                     $village = strtok(",");
                     $village = ltrim($village);
+                    $village = str_replace("'","",$village);
                     echo $village . "<br>";
                 }
             }

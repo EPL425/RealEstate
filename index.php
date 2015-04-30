@@ -38,17 +38,22 @@
         }
 
     </style>
+
+    <script>
+
+
+    </script>
 </head>
 
 <body style=" background-color: inherit;">
 
     <div id = "myDiv">
-            <form class="form-inline">
+            <form class="form-inline" action="newMap.php" method="post">
                 <div class="form-group">
                     <label class="control-label col-sm-4" for="city">City:</label>
                     <div class="col-sm-4">
                         <select class="form-control" name="city" id="city">
-                            <option value="0">Select City...</option>
+                            <option value="0">Any</option>
                             <option value="1">Nicosia</option>
                             <option value="2">Limassol</option>
                             <option value="3">Larnaca</option>
@@ -62,9 +67,9 @@
                     <label class="control-label col-sm-6" for="forSale">Rent or Sale:</label>
                     <div class="col-sm-4">
                         <select class="form-control" name="forSale" id="forSale">
-                            <option value="0">Any</option>
-                            <option value="1">For Rent</option>
-                            <option value="2">For Sale</option>
+                            <option value="2">Any</option>
+                            <option value="0">For Rent</option>
+                            <option value="1">For Sale</option>
                         </select>
                     </div>
                 </div>
@@ -83,28 +88,15 @@
                     </div>
                 </div>
 
-                <div class="form-group">
-<!--                    <label class="control-label col-sm-4" for="beds">Bedrooms</label>-->
-<!--                    <div class="col-sm-4">-->
-<!--                        <select class="form-control" name="beds" id="beds">-->
-<!--                            <option value="0">Any</option>-->
-<!--                            <option value="1">1</option>-->
-<!--                            <option value="2">2</option>-->
-<!--                            <option value="3">3</option>-->
-<!--                            <option value="4">4</option>-->
-<!--                            <option value="5">5+</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-                    Bedrooms: <b>1.</b> <input id="Bedrooms" type="text" class="span2" value="" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="[0,10]"/> <b>.10</b>
+                <div class="form-group" id="bedDivs" style="display: none">
+                    Bedrooms: <b>1.</b> <input name="Bedrooms" id="Bedrooms" type="text" class="span2" value="" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="[0,10]"/> <b>.10</b>
+                </div>
 
+                <div class="form-group" id="plotDivs" style="display: none">
+                    Plot: <b>0m².</b> <input name ="Plot" id="Plot" type="text" class="span2" value="" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="[0,1000]"/> <b>.1000m²</b>
                 </div>
 
                 <div class="form-group">
-                    Plot: <b>0m².</b> <input id="Plot" type="text" class="span2" value="" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="[0,1000]"/> <b>.1000m²</b>
-                </div>
-
-                <div class="form-group">
-<!--                    Price: <b>€0</b> <input id="Price" type="text" class="span2" value="" data-slider-min="0" data-slider-max="1000000" data-slider-step="100" data-slider-value="[0,1000000]"/> <b>€1000000+</b>-->
                     <label class="control-label col-sm-3" for="min_price">Price:</label>
                     <div class="col-sm-4">
                         <input type="number" class="form-control" style="width: 120px" name="min_price" id="min_price" placeholder="€ Min. Price"/>
@@ -134,6 +126,23 @@
     <script>
         $("#Bedrooms").slider({});
           $("#Plot").slider({});
+
+        $("#type").change(function () {
+            var end = this.value;
+            if(end == 1 || end == 2){
+                $("#bedDivs").fadeIn();
+                $("#plotDivs").fadeOut();
+            }
+            if (end == 0 || end == 5){
+                $("#bedDivs").fadeOut();
+                $("#plotDivs").fadeOut();
+            }
+            if(end == 4 || end == 3 ){
+                $("#plotDivs").fadeIn();
+                $("#bedDivs").fadeOut();
+            }
+        });
+
     </script>
 </body>
 </html>

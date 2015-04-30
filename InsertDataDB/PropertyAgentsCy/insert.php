@@ -1,7 +1,7 @@
 <?php
     include_once('../simple_html_dom.php');
     include("../mySQLQueries/openDB.php");
-    for($i=1;$i<33;$i++){
+    for($i=1;$i<2;$i++){
         $target_url = "http://propertyagentscy.com/?s=all+properties&search=search&srch_type&srch_keyword&category=0&srch_location&location_by_area&srch_bedrooms_min&srch_bedrooms&srch_bathroom_min&srch_bathroom&srch_price&paged=".$i;
         $html = new simple_html_dom();
         $html->load_file($target_url);
@@ -107,9 +107,12 @@
 
                         }
                     } elseif (strcmp($info[sizeof($info) - 1], "Limassol") == 0) {
+
+                        echo "Inside Limassol<br>";
                         $sqlCheck = "SELECT * FROM propertylimassol WHERE propertylimassol.link='$link';";
                         $resultProperty = $conn->query($sqlCheck);
                         if ($resultProperty->num_rows == 0) {
+                            echo "Inside Limassol<br>";
                             $sqlInsertLatLong = "INSERT INTO propertyLocation(Latitude, Longitude) VALUES ('$ll[0]' ,'$ll[1]') ";
                             if ($conn->query($sqlInsertLatLong) === TRUE) {
                                 $sqlInsertProperty = "INSERT INTO propertylimassol (type, forSale, bedrooms,price, location, img, link, exactLoc)VALUES ('$type','$sale', '$info[2]','$info[0]','$info[3]','$img','$link','$conn->insert_id' );";

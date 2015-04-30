@@ -7,7 +7,7 @@ function loadVillages () {
             map: map,
             animation: google.maps.Animation.DROP,
             title: markerData[i][0].location,
-            icon: "img/house170.png"
+            icon: "pin2.png"
         });
         console.log(markerData[i][0].location);
 
@@ -67,7 +67,8 @@ function loadHouses(){
                 }
                 var beds = "Plot: ";
                 var met = "m²";
-                if (markesDataHouses[foo].type == "Apartment-Flat" || markesDataHouses[foo].type == "House-Villa") {
+                if (markesDataHouses[foo].type == "Apartment" || markesDataHouses[foo].type == "House") {
+                    console.log("house");
                     beds = "Bedrooms: ";
                     met = "";
                 }

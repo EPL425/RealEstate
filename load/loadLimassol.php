@@ -7,7 +7,7 @@
         while($rowV = $resultVillages->fetch_assoc()) {
             $vill = $rowV["name"];
 
-            $sqlProperty = "SELECT * FROM propertylimassol, villageslimassol WHERE propertylimassol.location='$vill' and villageslimassol.Name='$vill' and propertylimassol.exactLoc=0 ;";
+            $sqlProperty = "SELECT * FROM propertylimassol AS p , villageslimassol AS v WHERE p.location='$vill' and v.Name='$vill' and p.exactLoc=0".$queryVill;
             $resultProperty = $conn->query($sqlProperty);
             $rowsProperty = [];
             if ($resultProperty->num_rows > 0) {
@@ -25,12 +25,13 @@
             }
 
 
+
         }
     } else {
         //echo "0 results";
     }
 
-    $sqlHouse = "SELECT * FROM propertylimassol, propertylocation WHERE  propertylimassol.exactLoc=propertylocation.locationID ;";
+    $sqlHouse = "SELECT * FROM propertylimassol AS p, propertylocation AS l WHERE  p.exactLoc=l.locationID ".$queryVill;
     $resultHouses = $conn->query($sqlHouse);
 
     if ($resultHouses->num_rows > 0) {
