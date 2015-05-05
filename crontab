@@ -1,0 +1,14 @@
+
+
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/Fitzgerald/fitzgeraldMap.php
+
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/ktimaAgora/ktimaAgoraRent.php
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/ktimaAgora/ktimaAgoraSale.php
+
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/LandTourist/landTouristRent.php
+
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/PesPosa/insert.php
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/PesPosa/insertLarnaca.php
+
+00 00 * * * lynx -dump http://localhost/RealEstate/InsertDataDB/PropertyAgentsCy/insert.php
+

@@ -30,7 +30,7 @@
         //echo "0 results";
     }
 
-    $sqlHouse = "SELECT * FROM propertylarnaca AS p, propertylocation AS l WHERE  p.exactLoc=l.locationID ;";
+    $sqlHouse = "SELECT * FROM propertylarnaca AS p, propertylocation AS l WHERE  p.exactLoc=l.locationID".$queryVill;
     $resultHouses = $conn->query($sqlHouse);
 
     if ($resultHouses->num_rows > 0) {

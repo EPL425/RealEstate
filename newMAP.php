@@ -12,6 +12,10 @@ $centerLong = 0;
 
     $conn->close();
 ?>
+
+<!--CRONTAB-->
+<!--http://www.htmlcenter.com/blog/running-php-scripts-with-cron/-->
+
 <!DOCTYPE html>
 <html>
 <head>
